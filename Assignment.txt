@@ -1,0 +1,23 @@
+Practice Project
+
+Create a database table, “student” that has the following fields:
+- ID (as the primary key of the table)
+- First name (varchar, 255 max length)
+- Last name (varchar, 255 max length, which cannot be null)
+- School ID
+- Start date (DATE)
+- Date entered (DATETIME, time the record was inserted)
+
+Create a database table, “school” that has the following fields:
+- ID (as the primary key of the table)
+- Name (varchar, 255 max length)
+- Date founded (DATE)
+- Date entered (DATETIME, time the record was inserted)
+
+Write an insert - Insert three schools into the database, one of them with the name “Coding Academy”.
+Write an Insert - Insert five students into the database with different names. Two of these students’ last names should be “Smith”.
+Write a select - Select all students who do not attend Coding Academy, select the first one.
+Write a select - Select all schools, order by the date founded, starting with the old school.
+Write a select - Select all students from the "student" table along with their corresponding school name.
+Write an update - Update all students whose last name is “Smith” to have the school ID for “Coding Academy”.
+Write a delete - Delete all students that do not attend Coding Academy school.
